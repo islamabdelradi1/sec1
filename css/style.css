@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-collapse{
+justify-content: right;
+}
+.navbar{
+    padding: 0 100px;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 99;
+    background-color: white;
+}
+.nav-item a:hover{
+    background-color: brown;
+    color: white !important;
+}
+.sec1{
+padding:0 100px;
+}
+.lefts{
+    padding-top: 200px;
+}
+.lefts h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.lefts p{
+    font-weight: 400;
+    color: rgb(82, 81, 81);
+    margin-bottom: 30px;
+
+}
+.lefts a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.r-t img{
+    height: 800px;
+}
+.conall p{
+    color: red;
+    font-size: 12px;
+    font-weight: 700;
+}
+.alls h1{
+    font-weight: bold;
+}
+.dev1 img:hover{
+    transform: scale(1.1);
+}
+.devs3 img{
+border-bottom: 2px solid brown;
+}
+.devs3 h3{
+    font-weight: 500;
+    font-size: 25px;
+    
+}
+.devs3 p{
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(79, 80, 80);
+}
+
+/* .devs3::before :hover{
+    content: 'add to card';
+    width: 350px;
+    height: 50px;
+    background-color: brown;
+    position: absolute;
+    top: 300px;
+    color: white;
+    right: 15px;
+    padding-top: 12px;
+} */
+#btn2{
+background-color: red;
+height: 40px;
+position: absolute;
+width: 350px;
+top: 311px;
+display: none;
+transition: all 3s;
+}
+#btn2 p{
+    color: white;
+    padding: 10px 0;
+}
